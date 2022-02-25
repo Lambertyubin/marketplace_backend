@@ -8,26 +8,17 @@ My goal was to build an online marketplace for used items. This would include a 
 
 ## How to navigate this project
 
-### Frontend
-
-- Some stateful logic: [link to stateful logic]
-- Example CSS: [link to css from homepage]
-- Product component: [link]
-- Shopping Cart component: [link]
-  The application fetched data from a backend API that I built as part of the project.
-- Requests to API for authentication: [link]
-- Requests to API for video content: [link]
-
-- Integration tests using React Testing Library [link to example test]
-
 ### Backend
 
-- Express.js middleware: [link]
-- API entry routes: [link to routes]
-- Server-side logic to handle CRUD operations
-- Product model with Mongoose: [link]
-- Application logic to retrieve data from the MongoDB database: [link]
-- I tested this API's CRUD operations using Postman
+- Express.js middleware mounting: [Click here](https://github.com/Lambertyubin/marketplace_backend/blob/main/app.js#L34)
+- Example API routes: [Product routes](https://github.com/Lambertyubin/marketplace_backend/blob/main/routes/product.routes.js#L8)
+- Server-side logic to handle CRUD operations with MongoDB: [Click here](https://github.com/Lambertyubin/marketplace_backend/blob/main/routes/product.routes.js#L8)
+- Product model with Mongoose: [Click here](https://github.com/Lambertyubin/marketplace_backend/blob/main/models/product.model.js#L3)
+- The API was tested with Postman
+
+### Frontend
+
+- Link to the frontend: [Click here](https://github.com/Lambertyubin/marketplace_frontend)
 
 ## Why I built the project this way
 
